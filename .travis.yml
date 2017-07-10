@@ -3,7 +3,7 @@ rvm:
   - 2.2.3
 before_script:
   - cp config/database.travis.yml config/database.yml
-  - psql -c 'create database workshops_test;' -U workshops
+  - psql -c 'create database workshops_test;' -U postgres
 scripts:
   - RAILS_ENV=test bundle exec
 services:
