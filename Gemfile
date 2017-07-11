@@ -43,6 +43,7 @@ end
 
 group :production do
   gem 'puma'
+	gem 'faker'
   gem 'rails_12factor'
 end
 
