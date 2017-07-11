@@ -5,4 +5,5 @@
 jQuery ->
 	$('#payments-table').dataTable
 		sPaginationType: 'full_numbers',
-	  responsive: true
+		bJQueryUi: true
+	  # responsive: true

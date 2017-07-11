@@ -13,5 +13,7 @@
  *= require_tree .
  *= require_self
  *= require font-awesome
- *= require dataTables/extras/dataTables.responsive
+ *= require jquery-ui/core
+ *= require jquery-ui/theme
+ *= require dataTables/src/demo_table_jui
 */
