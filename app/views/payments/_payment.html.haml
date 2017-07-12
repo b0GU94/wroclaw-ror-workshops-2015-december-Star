@@ -1,4 +1,4 @@
 %tr
-  %td= payment.decorate.student_full_name
+  %td= Student.find(payment.student_id).decorate.full_name
   %td= payment.decorate.month_name
   %td= payment.date_of_payment

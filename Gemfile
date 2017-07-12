@@ -22,6 +22,7 @@ gem 'gretel'
 gem 'jquery-datatables-rails', '~> 3.4.0'
 gem 'jquery-ui-rails'
 gem 'jquery-turbolinks'
+gem 'faker'
 
 group :development do
   gem 'better_errors'
@@ -35,7 +36,6 @@ end
 group :development, :test do
   gem 'byebug'
   gem 'factory_girl_rails'
-  gem 'faker'
   gem 'rspec-rails'
   gem 'spring'
   gem 'web-console', '~> 2.0'
